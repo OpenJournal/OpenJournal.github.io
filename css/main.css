@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Lato';
 }
 
 /*
@@ -279,4 +280,63 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+header {
+       padding: 15px;
+       height: 50px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-top: 3px;
+    font-family: 'Playfair Display', serif;
+}
+
+img.inline-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.carousel {
+    margin-left: 20px;
+    //    background-color: #354477; //#4d3577;
+    margin-bottom: 30px;
+}
+
+.carousel h2 {
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: 200;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+
+.value-img {
+    height: 45px;
+    float: left;
+    padding: 0px 10px;
+}
+
+.value-prop {
+    padding: 10px;
+ }
+
+.value-prop h3 {
+    margin-top: 5px;
+}
+
+p {
+    font-size: .8em;
+    font-weight: 300;
+    font-family: 'Lato';
+}
+
+ul li {
+    font-size: .7em;
 }
